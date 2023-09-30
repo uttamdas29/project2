@@ -1,0 +1,33 @@
+:root{
+    --bg-color:#0aad0a;
+    --text-color:#0aad0a;
+}
+.text-primary-coler{
+    color:var(--text-color);
+}
+.cutom-bg-color{
+    background: var(--text-color) !important;
+    color: #fff;
+
+}
+.btn-success{
+    background: var(--text-color) !important;
+    color: #fff;
+    font-weight: 500;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 15px; /* remove the gap so it doesn't close */
+}
+.slider-content {
+    padding: 150px 0 150px 40px;
+}
+.slider-content h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: #222;
+}
+.card:hover{
+    border: 2px solid green;
+}
